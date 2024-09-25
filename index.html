@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gallery.js"></script>
+</header>
+
+
+<body>
+   
+
+    <header>
+        <div class="title">
+            <h3>Image Gallery</h3>
+            <div>
+                <label for="file-upload" class="custom-file-label">Add Image</label>
+                <input type="file" id="file-upload" multiple accept=".jpg ,.png ,.jpeg">
+        
+            </div>
+            
+        </div>
+    
+        <div class="options">
+            <p data-filter="All" class="active">All</p>
+            <p data-filter="fav">Favourites</p>
+        </div >
+    </header>
+  
+    
+
+    <div class="gallery">
+       
+    </div>
+  
+     
+    <div class="model">
+        <img class="Image" src="" alt="">
+        <img class="close" src="icons/icons8-close.svg" alt="">
+        <img class="next" src="icons/icon-next-spot.svg" alt="">  
+        <img class="previous" src="icons/icon-previous-spot.svg" alt="">
+       <div class="favo" >
+        <img class="fav" src="icons/icons8-favorite-24.png" alt="">
+         <img class="delete" src="icons/icons8-delete-button.svg" alt="">
+       </div>
+      
+    </div>
+     
+     
+
+</body>
+
+</html>
