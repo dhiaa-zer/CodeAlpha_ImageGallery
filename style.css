@@ -235,6 +235,7 @@ input[type="file"] {
 @media only screen and (max-width:500px){
      .Image{
         width: 50%;
+        max-width: 45%;
      }
     html{
         font-size: 13px;
